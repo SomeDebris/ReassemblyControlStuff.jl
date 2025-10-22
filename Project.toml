@@ -2,3 +2,11 @@ name = "ReassemblyControlStuff"
 uuid = "cda98394-d77e-4e85-b846-417ba704cf2e"
 authors = ["Magnus Ramsey <38709696+SomeDebris@users.noreply.github.com>"]
 version = "0.1.0"
+
+[deps]
+ControlSystems = "a6e380b2-a6ca-5380-bf3e-84a91bcd477e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[compat]
+ControlSystems = "1.15.1"
+LinearAlgebra = "1.11.0"
